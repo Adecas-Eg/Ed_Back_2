@@ -1,8 +1,10 @@
 package com.proyecto.ed.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import jakarta.persistence.*;
+
 import lombok.Data;
+
+import javax.persistence.*;
 
 @Data
 @Entity
@@ -12,6 +14,7 @@ import lombok.Data;
 public class Casa {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
+
     @Column(name = "casa_id")
     private int id;
     private String name;

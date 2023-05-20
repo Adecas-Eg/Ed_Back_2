@@ -4,9 +4,10 @@ package com.proyecto.ed.controller;
 import com.proyecto.ed.dto.Mensaje;
 import com.proyecto.ed.model.Casa;
 import com.proyecto.ed.model.User;
-import com.proyecto.ed.repository.UserRepository;
+
 import com.proyecto.ed.service.UserService;
-import io.micrometer.common.util.StringUtils;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

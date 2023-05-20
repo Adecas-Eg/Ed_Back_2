@@ -2,10 +2,10 @@ package com.proyecto.ed.service;
 
 import com.proyecto.ed.model.Casa;
 import com.proyecto.ed.repository.CasaRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
